@@ -1,10 +1,10 @@
-#Fake Art or AI-Generated Image Detection
+# 🎨 Fake Art or AI-Generated Image Detection
 
 This project uses deep learning to classify images as either **human-made artwork** or **AI-generated art**. It's designed to support art buyers, galleries, and the general public in verifying the authenticity of digital art.
 
 ---
 
-##Project Overview
+## 🚀 Project Overview
 
 - **Goal**: Detect if an artwork was created by a human or an AI model like Midjourney, DALL·E, or Stable Diffusion.  
 - **Model**: ResNet18 (transfer learning)  
