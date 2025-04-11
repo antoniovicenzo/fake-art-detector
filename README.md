@@ -119,16 +119,6 @@ Result: Real Artwork (93.2% confidence)
 
 ---
 
-## 👥 Team Contributions
-
-| Team Member      | Role                                   |
-|------------------|----------------------------------------|
-| Your Name (You)  | Executive report, documentation, repo  |
-| Teammate A       | Model training, data sourcing          |
-| Teammate B       | Streamlit UI, integration              |
-
----
-
 ## 📜 License & Usage
 
 This project is for academic and educational purposes only.  
