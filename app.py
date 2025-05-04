@@ -4,7 +4,8 @@ import torchvision.transforms as transforms
 from PIL import Image
 
 # Load model
-model = torch.load("models/fake_art_classifier_full.pt", map_location=torch.device('cpu'))
+model = torch.load("models/fake_art_classifier_full.pt", 
+map_location=torch.device('cpu'), weights_only=False)
 model.eval()
 
 # Transform
@@ -13,7 +14,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),
 ])
 
-labels = ["Real Artwork", "AI-Generated"]
+labels = ["AI-Generated", "Real Artwork"]
 
 st.title("\U0001F3A8 Fake Art Detector")
 image_file = st.file_uploader("Upload an image to check:", type=["jpg", "png"])
