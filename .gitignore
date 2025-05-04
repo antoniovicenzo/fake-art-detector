@@ -1,0 +1,36 @@
+# Ignore image datasets
+data/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Python cache and virtual environment files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.ipynb_checkpoints/
+
+# Environment and IDE files
+.env
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+
+# Models and logs
+models/
+*.h5
+*.pth
+*.pt
+*.log
+
+# Streamlit generated folders
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
